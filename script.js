@@ -53,7 +53,7 @@ function renderForm() {
     if (fullNameInput.value && emailInput.value) {
         formContainer.innerHTML = `
         <h1>Thanks For Registering, ${fullNameInput.value}</h1>
-        <p class="text" style="text-align: center;">Don't forget to check your <a href="https://calendar.google.com/" target="_blank">calender</a> for future events </p>`
+        <p class="text" style="text-align: center;">Don't forget to check your <a href="https://calendar.google.com/" target="_blank">calendar</a> for future events </p>`
     } else (
         noText()
     )

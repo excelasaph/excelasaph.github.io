@@ -172,6 +172,10 @@ p {
     justify-content: center;
 }
 
+#tab-1-content h2 {
+    margin-top: 2rem;
+}
+
 .event-top-header {
     padding-bottom: 4rem;
     font-size: 2.5rem;
@@ -571,7 +575,6 @@ p {
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 3rem;
     }
-
 }
 
 
@@ -714,5 +717,4 @@ p {
     .teams-item img {
         width: 75%;
     }
-
 }
